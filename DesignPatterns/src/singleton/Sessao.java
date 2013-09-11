@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Sessao {
 
-	private HashMap dados = new HashMap();
+	private HashMap<String, Object> dados = new HashMap<String,Object>();
 	private static Sessao sessao;
 	
 	private Sessao(){
